@@ -24,6 +24,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  display: flex;
   padding: 5px;
   background: #222;
   color: #fff;
@@ -64,6 +65,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
   display: block;
   padding: 10px 15px;
   border-radius: 3px;
@@ -118,7 +120,59 @@ footer img {
   text-decoration: none;
   font-size: 28px;
 }
+/* prerequisites */
+.prsq {
+  background-color:rgb(11, 28, 213);  
+}
+.prsq-section{
+  padding-bottom: 50px;
+  padding-top: 50px;
 
+}
+.prsq-header {
+  color: white;
+}
+.prsq-header h1 {
+  font-style: oblique;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 70px;
+  margin: 20px auto;
+}
+.prsq-content  {
+  width:80%;
+  background-color:rgb(8, 8, 4);
+  opacity: 1;
+  margin :0 auto;
+  margin-top: 50px;
+  max-width: 1300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-radius: 20px;
+  color:white;
+}
+.prsq-content a {
+  display: inline-block;
+  
+  color:white;
+  border-radius:3px;
+  transition: all 0.2s ease-in-out
+}
+.prsq-content a:hover {
+  background:rgb(166, 191, 191);
+  color:rgb(0, 157, 255)
+}
+.prsq-content li{
+  padding-top: 10px;
+}
+#note{
+  text-transform: capitalize;
+  font-style: italic;
+}
+/* prerequisites */
 /* basic site sections */
 .site-section {
   padding-bottom: 50px;
@@ -128,7 +182,6 @@ footer img {
   background: #efefef;
 }
 .site-section-inside {
-  
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
@@ -177,8 +230,13 @@ footer img {
   display: block;
   text-align: center;
 }
+fieldset{
+  border-radius: 10px;
+}
 legend{
-  color:rgb(16, 2, 125);
+  text-transform: capitalize;
+  font-style: italic;
+  font-size:2rem;
 }
 .feature-box p{
   text-align: center;
@@ -193,12 +251,12 @@ legend{
   font-family: 'Catamaran', sans-serif;
 }
 .content-head{
+  color:rgb(16, 2, 125);
   text-transform: uppercase;
   font-size:2rem;
 }
 .content p{
   font-size: 1.2rem;
-  font-family: ;
 }
 .content ul{
   font-size:1.2rem ;
