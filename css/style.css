@@ -1,5 +1,5 @@
 /* font family */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
 
 /* resetting browser stuff */
 * {
@@ -12,7 +12,11 @@ body {
   line-height: 1.5;
   font-size: 16px;
 }
-
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 9.411764705882353px;
+  }
+}
 /* styling our overall page */
 body {
   background: #fff;
@@ -96,7 +100,6 @@ footer img {
   background-image: url("../img/cyberlock.jpg");
   background-size: cover;
   opacity: 0.9;
-  
 }
 .hero-content {
   color: #fff;
@@ -122,12 +125,11 @@ footer img {
 }
 /* prerequisites */
 .prsq {
-  background-color:rgb(11, 28, 213);  
+  background-color: rgb(11, 28, 213);
 }
-.prsq-section{
+.prsq-section {
   padding-bottom: 50px;
   padding-top: 50px;
-
 }
 .prsq-header {
   color: white;
@@ -140,35 +142,35 @@ footer img {
   font-size: 70px;
   margin: 20px auto;
 }
-.prsq-content  {
-  width:80%;
-  background-color:rgb(8, 8, 4);
+.prsq-content {
+  width: 80%;
+  background-color: rgb(8, 8, 4);
   opacity: 1;
-  margin :0 auto;
+  margin: 0 auto;
   margin-top: 50px;
   max-width: 1300px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 20px;
-  color:white;
+  color: white;
 }
 .prsq-content a {
   display: inline-block;
-  
-  color:white;
-  border-radius:3px;
-  transition: all 0.2s ease-in-out
+
+  color: white;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
 }
 .prsq-content a:hover {
-  background:rgb(166, 191, 191);
-  color:rgb(0, 157, 255)
+  background: rgb(166, 191, 191);
+  color: rgb(0, 157, 255);
 }
-.prsq-content li{
+.prsq-content li {
   padding-top: 10px;
 }
-#note{
+#note {
   text-transform: capitalize;
   font-style: italic;
 }
@@ -186,10 +188,9 @@ footer img {
   max-width: 1200px;
   margin: 0 auto;
 }
-.site-sec-inner{
-  display:flex;
+.site-sec-inner {
+  display: flex;
   align-items: stretch;
-  
 }
 .section-header {
   box-sizing: border-box;
@@ -203,9 +204,8 @@ footer img {
   font-weight: 300;
   color: rgb(16, 2, 125);
 }
-.section-header a{
+.section-header a {
   text-decoration: none;
-
 }
 
 /* feature boxes */
@@ -230,36 +230,36 @@ footer img {
   display: block;
   text-align: center;
 }
-fieldset{
+fieldset {
   border-radius: 10px;
 }
-legend{
+legend {
   text-transform: capitalize;
   font-style: italic;
-  font-size:2rem;
+  font-size: 2rem;
 }
-.feature-box p{
+.feature-box p {
   text-align: center;
-  color:black;
+  color: black;
 }
-.feature-box a{
+.feature-box a {
   text-decoration: none;
   text-rendering: geometricPrecision;
 }
 /* content div */
-.content{
-  font-family: 'Catamaran', sans-serif;
+.content {
+  font-family: "Catamaran", sans-serif;
 }
-.content-head{
-  color:rgb(16, 2, 125);
+.content-head {
+  color: rgb(16, 2, 125);
   text-transform: uppercase;
-  font-size:2rem;
+  font-size: 2rem;
 }
-.content p{
+.content p {
   font-size: 1.2rem;
 }
-.content ul{
-  font-size:1.2rem ;
+.content ul {
+  font-size: 1.2rem;
 }
 /* testimonial boxes */
 .testimonial-box {
