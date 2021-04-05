@@ -3,6 +3,7 @@
 
 /* resetting browser stuff */
 * {
+  transition:all 0.3s ease-in-out;
   box-sizing: border-box;
 }
 html,
@@ -95,10 +96,13 @@ footer img {
 
 /* styling our main content */
 .hero {
-  min-height: 800px;
+  width:100%;
+  height:auto;
+  min-height: 800px; 
   text-align: center;
   background-image: url("../img/cyberlock.jpg");
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0.9;
 }
 .hero-content {
