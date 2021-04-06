@@ -3,7 +3,7 @@
 
 /* resetting browser stuff */
 * {
-  transition:all 0.3s ease-in-out;
+  transition:all 0.1s ease-in-out;
   box-sizing: border-box;
 }
 html,
@@ -153,8 +153,12 @@ footer img {
 }
 .prsq-content {
   width: 80%;
-  background-color: rgb(8, 8, 4);
-  opacity: 0.5;
+  
+  
+  opacity: 0.9;
+  background: rgba(8, 8, 4, 0.2); 
+  backdrop-filter: blur(8px); 
+  
   margin: 0 auto;
   margin-top: 50px;
   max-width: 1300px;
