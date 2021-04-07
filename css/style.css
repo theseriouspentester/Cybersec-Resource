@@ -156,7 +156,7 @@ footer img {
   
   
   opacity: 0.9;
-  background: rgba(8, 8, 4, 0.2); 
+  background: rgba(8, 8, 4, 0.4); 
   backdrop-filter: blur(8px); 
   
   margin: 0 auto;
@@ -271,7 +271,7 @@ legend {
 .content p {
   font-size: 1.2rem;
 }
-.content ul {
+.content li {
   font-size: 1.2rem;
 }
 /* testimonial boxes */
