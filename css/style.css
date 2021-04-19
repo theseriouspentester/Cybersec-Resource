@@ -132,7 +132,7 @@ footer img {
 }
 /* prerequisites */
 .prsq {
-  background-image: url("../img/prerequisite.jpg");
+  background-image: url("../img/wood.jpg");
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.9;
@@ -194,10 +194,10 @@ footer img {
   padding: 2vh;
 }
 .site-section-secondary {
-  background: #efefef;
+  
 }
 .site-section-inside {
-  width: 80%;
+  
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -218,6 +218,22 @@ footer img {
   text-transform: uppercase;
   font-weight: 300;
   color: rgb(162, 238, 247);
+}
+.site-section-content{
+  
+  opacity: 0.9;
+  background: rgba(8, 8, 4, 0.4);
+  backdrop-filter: blur(8px);
+
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  color: white;
 }
 .begin h2 {
   font-size: 2.5rem;
@@ -258,6 +274,7 @@ footer img {
 }
 fieldset {
   border-radius: 10px;
+  border-color: white;
 }
 legend {
   text-transform: capitalize;
@@ -277,7 +294,7 @@ legend {
   font-family: "Catamaran", sans-serif;
 }
 .content-head {
-  color: rgb(16, 2, 125);
+  color: white;
   text-transform: uppercase;
   font-size: 2rem;
 }
