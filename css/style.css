@@ -333,3 +333,32 @@ legend {
 .testimonial-author span {
   font-size: 14px;
 }
+/* PENTESTING */
+.testing-1{
+  padding:3%;
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  text-align: center;
+  background-image: url("../img/cool-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+.testing-1-inside{
+  opacity: 0.9;
+  background: rgba(8, 8, 4, 0.4);
+  backdrop-filter: blur(8px);
+
+  margin: 0 auto;
+  max-width: 1500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  color: white;
+}
+#testing-1-header{
+  text-transform: uppercase;
+}
