@@ -50,6 +50,7 @@ nav {
 }
 /*  */
 .nav-links {
+  /* position: relative; */
   display: none;
   justify-content: space-around;
   width: 30%;
@@ -71,13 +72,14 @@ nav {
   padding: 10px 15px;
   border-radius: 3px;
   transition: 0.3s ease all;
+  font-size: 15px;
 }
 .nav-links a:hover{
     background:#444;
 }
 .burger {
   position: absolute;
-  top:2vh;
+  top:15px;
   right:3vh;
   display: none;
   cursor: pointer;
