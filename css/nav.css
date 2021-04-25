@@ -98,26 +98,25 @@ nav {
 } */
 @media screen and (max-width: 8000px) {
   body {
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
   }
   .nav-links {
-    /* display: none; */
+    opacity: 0;
     position: absolute;
     right: 0px;
     height: 94.2vh;
     top: 5.8vh;
     background-color: #222;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: stretch;
-    
-    width: 50%;
+    width: 30%;
     transform: translateX(100%);
-    transition: transform 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .nav-links li {
-      align-content: center;
-    opacity: 0;
+    align-content: center;
+    opacity: 0; 
   }
   .burger {
     display: block;
@@ -125,7 +124,9 @@ nav {
 }
 .nav-active {
   transform: translateX(0%);
-  overflow: visible;
+  width:30%;
+  display:grid;
+  /* display:contents; */
   opacity: 1;
 }
 @keyframes navLinkFade {
