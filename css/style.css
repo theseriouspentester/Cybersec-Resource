@@ -173,7 +173,7 @@ footer img {
 }
 .prsq-content a {
   display: inline-block;
-
+  font-size: 1.3rem;
   color: white;
   border-radius: 3px;
   transition: all 0.2s ease-in-out;
@@ -267,7 +267,7 @@ footer img {
 }
 .feature-box h5 {
   font-size: 20px;
-  color: #999;
+  color: rgb(197, 196, 196);
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 2px;
@@ -340,7 +340,7 @@ legend {
   padding:3%;
   width: 100%;
   height: auto;
-  min-height: 800px;
+  min-height: 98vh;
   text-align: center;
   background-image: url("../img/cool-background.png");
   background-size: cover;
