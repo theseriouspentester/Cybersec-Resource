@@ -8,31 +8,35 @@
     <link rel="icon" href="./img/cyber-security-.png" type="image/icon type">
     <!-- attach our stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
 </head>
 
 <body>
     <!-- the header -->
-    <header>
-        <!-- our main logo -->
-        <a id="logo" href="index.html">
-            <img src="img/hacker_1.png" alt="Logo">
-            <span>Cybersec Resource</span>
-        </a>
-        <!-- main navigation links -->
-        <nav class="nav1">
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="prerequisites.html">Prerequisites</a></li>
-
-                <li><a href="pentesting.html">Pentesting</a></li>
-
-                <li><a href="https://book4you.org" target=" _blank">Books</a></li>
-
-                <li><a href="#" >About</a></li>
-                <!-- <li><a href="#" target="_blank">telegram</a></li> -->
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <div>
+            <a id="logo" href="index.html">
+                <img src="img/hacker_1.png" alt="Logo">
+                <span class='title'>Cybersec Resource</span>
+            </a>
+        </div>
+    
+        <ul class="nav-links">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="prerequisites.html">Prerequisites</a></li>
+    
+            <li><a href="pentesting.html">Pentesting</a></li>
+    
+            <li><a href="https://book4you.org" target="_blank">Books</a></li>
+    
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="burger ">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
     <!-- the content -->
     <main>
         <!-- prerequisites content -->
@@ -439,6 +443,60 @@
                         </fieldset>
                     </div>
                 </div>
+                <div class="prsq-content">
+                    <div class="content">
+                        <fieldset>
+                            <p>
+                                This is an important aspect that we need to focus on. It is database administration and SQL and also No-SQL. As Tech
+                                improves day by data number of data is also increases. So big enterprises need something called Database Administration
+                                System. There is a whole big field of tech out there related to tech.
+                            </p>
+                            <p>
+                                Since data is the most important aspect of today’s world. Everyone wants to protect their data. If as a pen tester you
+                                cannot help them save their data you are worthless. So we need to learn the database administration. Both relational and
+                                non-relational.
+                            </p>
+                            <ul>
+                                <li>
+                                    I learned DBMS as my college course in my semester.
+                                </li>
+                                <li>
+                                    You can use <a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener noreferrer">Geeksforgeeks</a> or <a href="https://www.tutorialspoint.com/index.htm" target="_blank" rel="noopener noreferrer">Tutorialspoint</a> for the theory.
+                                </li>
+                                <li>
+                                    You can use <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">w3school</a> for learning SQL and MongoDB and practice.
+                                </li>
+                                <li>
+                                    You can practice at <a href="https://livesql.oracle.com/apex/f?p=590:1000" target="_blank" rel="noopener noreferrer">Oracle-SQL Live</a> . Or MySQl Workbench.
+                                </li>
+                                <li>
+                                    Since there are various DBMS software out there like Oracle, SQL Server, DB2, MySQL, MongoDB and many more. You can use
+                                    either of them but there might be slight differences in some parts of it.
+                                </li>
+                            </ul>
+                            <p>
+                                There are tons of courses and videos on Udemy and YouTube. Pick one and stick with it.
+                            </p>
+                            <p>
+                                One more important part is Cryptography but we will learn it during network security.
+                            </p>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="prsq-content">
+                    <div class="content">
+                        <fieldset>
+                            <p>
+                                Now you must be thinking Dude you made us learn so many things when are we actually going to learn how to hack? I know
+                                the feeling the overwhelming excitement of learning so many things. But in reality we have covered around 30 percent of
+                                pen testing already. The more you know the stuff you want to hack the better you can hack it. So my advice is to just do
+                                one thing at a time. Never multitask because that will be disastrous and time wasting. These things are going to take
+                                time. For 6 to 8 months but they will put you at least 2 years ahead of someone who is not. Because believe me you will
+                                need these concepts.
+                            </p>
+                        </fieldset>
+                    </div>
+                </div>
             </div>
     </main>
 
@@ -447,7 +505,7 @@
         <img src="img/footer.png" alt="Footer Logo">
         <span>Cybersec Resource<br>Copyright &copy; 2021 </span>
     </footer>
-
+    <script src="JS/app.js"></script>
 </body>
 
 </html>
