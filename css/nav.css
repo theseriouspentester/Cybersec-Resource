@@ -100,6 +100,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  /* nav{
+    overflow-x: hidden;
+  } */
   .nav-links {
     position: absolute;
     right: 0px;
@@ -124,11 +127,12 @@ nav {
 }
 .nav-active {
   transform: translateX(0%);
+  overflow: visible;
 }
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(100px);
   }
   to {
     opacity: 1;
