@@ -123,7 +123,7 @@ nav {
 }
 .nav-active {
   transform: translateX(0%);
-  width:30%;
+  width:20%;
   display:grid;
   /* display:contents; */
   opacity: 1;
